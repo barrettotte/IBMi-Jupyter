@@ -3,13 +3,12 @@
 Examples of using Jupyter notebooks with IBMi DB2 to make basic reports and visualizations.
 
 
-## TODO
-* SQL cell executed via ODBC, output with pandas as dataframe
-* SQL cell syntax highlighting
-* Save result set
+## To Do
+* Make ```%%db2i``` an actual extension
 
 
-## Dependencies
+
+## Installing Dependencies
 * Install via pip - ```pip3 install jupyter ipython-sql pandas matplotlib numpy```
 
 
@@ -20,6 +19,8 @@ Examples of using Jupyter notebooks with IBMi DB2 to make basic reports and visu
 ## Jupyter Commands
 * ```%quickref``` - quick reference of IPython
 * ```%load_ext sql``` - load iPython SQL extension
+* ```%%sql``` - sql code cell
+* ```%%javascript``` - javascript code cell
 
 
 ## References
@@ -29,3 +30,5 @@ Examples of using Jupyter notebooks with IBMi DB2 to make basic reports and visu
 * SQL + Jupyter
   * https://towardsdatascience.com/heres-how-to-run-sql-in-jupyter-notebooks-f26eb90f3259
   * https://www.mssqltips.com/sqlservertip/6120/data-exploration-with-python-and-sql-server-using-jupyter-notebooks/
+* Notebook extensions - https://github.com/ipython-contrib/jupyter_contrib_nbextensions
+* ipython-sql - https://github.com/catherinedevlin/ipython-sql
