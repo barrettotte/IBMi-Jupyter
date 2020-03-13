@@ -1,6 +1,5 @@
 from IPython.core.magic import Magics, magics_class, cell_magic, line_magic, needs_local_scope
 from IPython.config.configurable import Configurable
-#from prettytable import PrettyTable
 
 import pandas as pd
 import pyodbc, re
@@ -9,7 +8,7 @@ conn = None
 
 def load_ipython_extension(ip):
     global conn
-    conn = None # connect here!
+    conn = None
     ip.register_magics(Db2iMagic)
 
 def unload_ipython_extension(ip):

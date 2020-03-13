@@ -13,7 +13,8 @@ Examples of using Jupyter notebooks with IBMi DB2 to make basic reports and visu
 
 
 ## Commands
-* ```jupyter notebook``` (open in current directory)
+* Open Jupyter - ```jupyter notebook``` (current directory)
+* Install ipython-db2i module - ```pip3 install .``` 
 
 
 ## Jupyter Commands
