@@ -3,26 +3,31 @@
 Examples of using Jupyter notebooks with IBMi DB2 to make basic reports and visualizations.
 
 
-## To Do
-* Make ```%%db2i``` an actual extension
+## Introduction
+Start a DB2 for i code cell with ```%%db2i```
+
+Example
+```sql
+%%db2i
+
+select *
+from QSYS2.SYSTABLES
+limit 10;
+```
 
 
-
-## Installing Dependencies
-* Install via pip - ```pip3 install jupyter ipython-sql pandas matplotlib numpy```
-
-
-## Commands
+## Setup
+* Install dependencies - ```pip3 install jupyter pandas matplotlib numpy pyodbc```
 * Open Jupyter - ```jupyter notebook``` (current directory)
-* Install ipython-db2i module - ```pip3 install .``` 
+* Hosted locally at - **http://localhost:8888/notebooks**
 
 
-## Jupyter Commands
-* ```%quickref``` - quick reference of IPython
-* ```%load_ext sql``` - load iPython SQL extension
-* ```%%sql``` - sql code cell
+## Additional Jupyter Commands
 * ```%%javascript``` - javascript code cell
-
+* ```%load_ext sql``` - load iPython SQL extension
+* ```%quickref``` - quick reference of IPython
+* ```%%run <file>``` - run another notebook
+* ```%%sql``` - SQL code cell
 
 ## References
 * Jupyter refresher - https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook
