@@ -3,9 +3,6 @@
 Utility notebook for using Jupyter notebooks with IBMi basic reports and visualizations.
 
 
-## Introduction
-Start a DB2 for i code cell with ```%%db2i```
-
 ## Example
 
 [Cell 1]
