@@ -1,6 +1,6 @@
 # IBMi-Jupyter
 
-Utility notebook for using Jupyter notebooks with IBMi basic reports and visualizations.
+Utility notebook for using Jupyter notebooks with IBMi for basic reports and visualizations.
 
 
 ## Example
