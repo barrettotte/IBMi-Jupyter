@@ -14,7 +14,7 @@ Utility notebook for using Jupyter notebooks with IBMi basic reports and visuali
 [Cell 2]
 ```sql
 -- Do a simple DB2 query
-%%db2i
+%%ibmi
 
 select *
 from QSYS2.SYSTABLES
