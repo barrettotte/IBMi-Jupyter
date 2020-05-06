@@ -1,19 +1,31 @@
-# IBMi-JupyterNotebook
+# IBMi-Jupyter
 
-Examples of using Jupyter notebooks with IBMi DB2 to make basic reports and visualizations.
+Utility notebook for using Jupyter notebooks with IBMi basic reports and visualizations.
 
 
 ## Introduction
 Start a DB2 for i code cell with ```%%db2i```
 
-Example
+## Example
+
+[Cell 1]
+```python
+# Loads IBMi notebook
+%%run IBMi.ipynb
+```
+
+[Cell 2]
 ```sql
+-- Do a simple DB2 query
 %%db2i
 
 select *
 from QSYS2.SYSTABLES
 limit 10;
 ```
+
+
+See more in [tests/Test.ipynb](tests/Test.ipynb)
 
 
 ## Setup
